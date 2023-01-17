@@ -1,0 +1,112 @@
+.box2{
+    top: 20%;
+    left:auto;
+    }
+.sun1{
+    visibility: hidden;
+}
+ .moon1{
+  visibility: hidden;
+  
+ }   
+
+.box2{
+background-color: rgb(5, 44, 44);
+
+}
+.box3{
+    background-color: rgb(42, 151, 151);
+    color: white;
+   
+}
+.box1{
+    background-color: rgb(6, 161, 161);
+    color: white;
+}
+.side_border{
+    border-right: 8px solid white;
+}
+
+.navbar1{
+    color: white;
+    font-weight: bolder;
+}
+ .container1{
+  left: 1rem;
+  top: 4rem;
+ }   
+ .show{
+  left:2px;
+  border:none;
+  top: 23px;
+  background: none;
+}
+
+@keyframes revolve {
+  from{transform: rotateY(0deg);}
+  to{
+    transform: rotateY(-180deg);
+  }
+  
+}
+
+.animation_style{
+  animation-name: revolve;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+
+
+}
+.btn1{
+  border: none;
+  left: 5px;
+  top: 24px;
+  background: none;
+}
+ul{
+  list-style: none;
+  
+}
+ul li{
+  background: #fff;
+ height: 70px;
+ font-weight: bolder;
+  position: relative;
+  border: 2px solid rgb(207, 201, 201);
+  line-height: 40px;
+  margin: 5px 0px;
+  text-align: center;
+  border-radius: 20px;
+  overflow: auto;
+}
+ul li span{
+  position: absolute;
+  top: -3px;
+  left: 12px;
+  color: rgb(137, 9, 9);
+  font-weight: bolder;
+ 
+
+}
+ul li span .pencil1{
+  position: absolute;
+  top: 12px;
+  left: 2rem;
+}
+ul li:hover{
+  background-color: rgb(100, 103, 103);
+  color: white;
+  font-weight: bolder;
+  
+}
+ul li p{
+  font-size: 13px;
+  color: black;
+  line-height: normal;
+  font-weight: 420;
+}
+ul li span:hover{
+  cursor: pointer;
+  color: white;
+}
